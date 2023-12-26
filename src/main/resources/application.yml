@@ -34,5 +34,5 @@ spring:
     jdbc:
       initialize-schema: always
     job:
-      name: job
-      enabled: false
+      name: jobExecutionTestJob
+      enabled: true
