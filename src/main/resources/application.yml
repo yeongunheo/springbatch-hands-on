@@ -17,7 +17,7 @@ spring:
     jdbc:
       initialize-schema: embedded
     job:
-      name: dbJob
+      name: job
 
 ---
 spring:
@@ -34,4 +34,5 @@ spring:
     jdbc:
       initialize-schema: always
     job:
-      name: dbJob
+      name: job
+      enabled: false
