@@ -33,6 +33,7 @@ public class JobLauncherConfiguration {
                     @Override
                     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
                         System.out.println("step1 was executed");
+                        Thread.sleep(3000);
                         return RepeatStatus.FINISHED;
                     }
                 }, platformTransactionManager)
