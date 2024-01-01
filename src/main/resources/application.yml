@@ -35,4 +35,4 @@ spring:
       initialize-schema: always
     job:
       enabled: true
-      name: jobIncrementorTestJob
+      name: chunkTestJob
